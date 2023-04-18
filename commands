@@ -1,0 +1,7 @@
+npx create-nx-workspace@latest <workspace-name>
+cd <workspace-name>
+nx generate @jnxplus/nx-boot-gradle:init
+nx generate @jnxplus/nx-boot-gradle:application <app-name>
+nx build <app-name>
+nx serve <app-name>
+nx test <app-name>
