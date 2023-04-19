@@ -9,9 +9,10 @@ Welcome to the Microservice Patterns repository! This repository contains a coll
 The following microservice patterns are included in this repository:
 
 - **API Gateway Pattern**: A pattern that involves a centralized gateway that handles incoming requests and routes them to the appropriate microservices.
+- **Service Registry Pattern**: A pattern that involves a central registry where microservices can register themselves and discover other services.  
+> _being built_
 - **Circuit Breaker Pattern**: A pattern that helps prevent cascading failures in a microservice-based application by detecting and isolating failing services.
 - **Event Sourcing Pattern**: A pattern that involves storing all changes to the state of a microservice as a sequence of events.
-- **Service Registry Pattern**: A pattern that involves a central registry where microservices can register themselves and discover other services.
 - **Saga Pattern**: A pattern that helps manage long-lived transactions in a distributed system by breaking them down into a series of smaller, compensatable transactions.
 - **CQRS Pattern**: A pattern that separates the read and write operations of an application into different components, improving scalability and performance.
 
