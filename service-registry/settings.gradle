@@ -1,0 +1,17 @@
+
+pluginManagement {
+  plugins {
+    id 'org.springframework.boot' version "$springBootVersion"
+    id 'io.spring.dependency-management' version "$dependencyManagementVersion"
+    id 'org.jetbrains.kotlin.jvm' version "$kotlinJvmVersion"
+    id 'org.jetbrains.kotlin.plugin.spring' version "$kotlinSpringVersion"
+  }
+}
+
+rootProject.name = 'service-registry'
+include('packages:eureka-client-2')
+include('packages:eureka-client-1')
+include('packages:eureka-server')
+
+
+
