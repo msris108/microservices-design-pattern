@@ -1,0 +1,14 @@
+{
+  "extends": "nx/presets/npm.json",
+  "$schema": "./node_modules/nx/schemas/nx-schema.json",
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "@nrwl/nx-cloud",
+      "options": {
+        "cacheableOperations": ["build", "lint", "test", "e2e"],
+        "accessToken": "MjAyMmE0YWItZjEwNC00ZDk2LWE1MjctNWExNDdmYjFiMTI1fHJlYWQtd3JpdGU="
+      }
+    }
+  },
+  "plugins": ["@jnxplus/nx-boot-gradle"]
+}
